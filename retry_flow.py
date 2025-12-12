@@ -1,4 +1,3 @@
-Create retry_flow.py:
 from prefect import flow, task
 from random import randint
 
@@ -12,4 +11,3 @@ def unstable_task():
 @flow
 def retry_example():
   unstable_task()
-
