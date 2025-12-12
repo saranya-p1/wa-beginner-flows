@@ -12,5 +12,4 @@ print("Success on attempt")
 @flow
 def retry_example():
 unstable_task()
-Run the flow → watch failures & retry behavior.
-This matches Control-M reruns / on-error actions.
+
