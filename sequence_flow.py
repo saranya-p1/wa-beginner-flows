@@ -15,5 +15,5 @@ def step3():
 @flow
 def sequence_flow():
   s1 = step1()
-s2 = step2(wait_for=[s1])
-step3(wait_for=[s2])
+  s2 = step2(wait_for=[s1])
+  step3(wait_for=[s2])
