@@ -15,8 +15,8 @@ def load(data):
 @flow
 def etl_flow():
   raw = extract()
-processed = transform(raw)
-load(processed)
+  processed = transform(raw)
+  load(processed)
 
 if __name__ == "__main__":
   etl_flow()
